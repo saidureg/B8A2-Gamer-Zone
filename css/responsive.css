@@ -1,0 +1,76 @@
+ /* Responsive for Mobile L devices */
+ @media screen and (max-width:450px) {
+
+    /* shared related styles */
+    .nav-container,
+    .menus-item-container,
+    .menus-item {
+        flex-direction: column;
+    }
+
+    /* nav styles */
+    .nav-container{
+        width: 95%;
+        margin-top: 30px;
+    }
+    
+    .logo-container {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .logo-container img {
+        margin-left: 70px;
+        margin-right: 20px;
+    }
+
+    .menus-item-container {
+        width: 100%;
+    }
+
+    .menus-item li{
+        margin-bottom: 30px;
+    }
+
+    .menus-icons{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+ }
+
+ /* Responsive for Tablet */
+ @media screen and (min-width:450px) and (max-width:770px) {
+
+    /* nav styles */
+    
+    .nav-container{
+        width: 100%;
+    }
+    
+    .logo-container {
+        width: 40%;
+    }
+    .menus-item-container {
+        width: 70%;
+        margin: 0px;
+        justify-content: space-between;
+    }
+
+    .menus-item a{
+        margin-left: 0px;
+    }
+    .menus-item li{
+        margin-left: 20px;
+        width: 50%;
+    }
+
+    .menus-icons {
+        gap: 15px;
+        margin-left: 10px;
+        padding: 20px 15px;
+    }
+    
+
+ }
