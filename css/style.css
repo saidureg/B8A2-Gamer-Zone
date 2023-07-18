@@ -25,10 +25,15 @@
     font-weight: var(--secondary-font-weight);
 }
 
-/* .primary-btn {
-    background-color: ;
+.primary-btn {
+    border-radius: 48px;
+    border: 0;
     color: white;
-} */
+    padding: 15px 35px;
+    font-size: 1.25rem;
+    font-weight: var(--primary-font-weight);
+    background-color: #4EC5F7;
+}
 
 /* header related styles here */
 
@@ -74,7 +79,7 @@ nav {
     align-items: center;
 }
 
-.menus-item{
+.menus-item {
     list-style: none;
     display: flex;
     align-items: center;
@@ -106,4 +111,69 @@ nav {
 
 .fa-youtube {
     color: #F61C0D;
+}
+
+/* banner related styles */
+
+.banner-container {
+    display: flex;
+    padding: 10px 10px;
+}
+
+.banner-content-bg-img {
+    width: 50%;
+    background-image: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%), url(../images/group-14.png);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+
+}
+
+.banner-content {
+    text-align: justify;
+    margin: 80px 10px;
+    margin-left: 120px;
+}
+
+.banner-title {
+    color: #0B0223;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: var(--text-weight-last);
+}
+
+.banner-content .click {
+    text-transform: lowercase;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.sign-btn {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.banner-caption {
+    font-size: 5.9rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.banner-img-container {
+    width: 50%;
+}
+
+.banner-img-container img {
+    width: 500px;
 }

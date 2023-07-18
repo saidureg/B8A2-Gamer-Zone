@@ -38,7 +38,65 @@
         margin-top: 30px;
     }
 
+     /* banner styles */
+    
+     .banner-container {
+        flex-direction: column-reverse;
+    }
+
+     .banner-content-bg-img {
+        width: 95%;
+        margin: 20px auto;
+        background-size: 100%;
+    }
+
+    .banner-content {
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    .banner-caption {
+        font-size: 3.9rem;
+        font-weight: 800;
+    }
+
+    .banner-title{
+        font-size: 2rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .primary-btn {
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 1.25rem;
+    }
+
+    .banner-btn {
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .banner-img-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .banner-img-container img {
+        width: 100%;
+    }
+
  }
+
+
+
+
+
+
 
  /* Responsive for Tablet */
  @media screen and (min-width:450px) and (max-width:770px) {
@@ -71,6 +129,5 @@
         margin-left: 10px;
         padding: 20px 15px;
     }
-    
 
  }
