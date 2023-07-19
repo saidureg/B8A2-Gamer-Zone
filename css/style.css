@@ -274,3 +274,42 @@ nav {
 .overlay:hover {
     opacity: 1;
 }
+
+
+
+/* play games styles */
+
+
+.play-games-container{
+    max-width: 1160px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.play-games-img-container{
+    width: 50%;
+    position: relative;
+}
+
+.play-games-img-container > img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.play-games-img{
+    position: absolute;
+    bottom: -92px;
+    right: -43.5px;
+    text-align: right;
+}
+
+.play-games-img img{
+    width: 74%;
+}
+
+.play-games-content{
+    width: 40%;
+    padding: 15px;
+}
