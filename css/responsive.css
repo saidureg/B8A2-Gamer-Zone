@@ -1,121 +1,127 @@
  /* Responsive for Mobile L devices */
  @media screen and (max-width:450px) {
 
-    /* shared related styles */
-    .nav-container,
-    .menus-item-container,
-    .menus-item,
-    .cards {
-        flex-direction: column;
-    }
+     /* shared related styles */
+     .nav-container,
+     .menus-item-container,
+     .menus-item,
+     .cards {
+         flex-direction: column;
+     }
 
-    /* nav styles */
-    .nav-container{
-        width: 95%;
-        margin-top: 25px;
-    }
-    
-    .logo-container {
-        width: 100%;
-        margin-bottom: 30px;
-    }
+     /* nav styles */
+     .nav-container {
+         width: 95%;
+         margin-top: 25px;
+     }
 
-    .logo-container img {
-        margin-left: 70px;
-        margin-right: 20px;
-    }
+     .logo-container {
+         width: 100%;
+         margin-bottom: 30px;
+     }
 
-    .menus-item-container {
-        width: 100%;
-    }
+     .logo-container img {
+         margin-left: 70px;
+         margin-right: 20px;
+     }
 
-    .menus-item li{
-        margin-bottom: 30px;
-    }
+     .menus-item-container {
+         width: 100%;
+     }
 
-    .menus-icons{
-        margin-bottom: 20px;
-        margin-top: 10px;
-    }
+     .menus-item li {
+         margin-bottom: 30px;
+     }
+
+     .menus-icons {
+         margin-bottom: 20px;
+         margin-top: 10px;
+     }
 
      /* banner styles */
-    
+
      .banner-container {
-        flex-direction: column-reverse;
-    }
+         flex-direction: column-reverse;
+     }
 
      .banner-content-bg-img {
-        width: 95%;
-        margin: 20px auto;
-        background-size: 100%;
-    }
+         width: 95%;
+         margin: 20px auto;
+         background-size: 100%;
+     }
 
-    .banner-content {
-        width: 85%;
-        margin: 20px auto;
-    }
+     .banner-content {
+         width: 85%;
+         margin: 20px auto;
+     }
 
-    .banner-caption {
-        font-size: 3.9rem;
-        font-weight: 800;
-    }
+     .banner-caption {
+         font-size: 3.9rem;
+         font-weight: 800;
+     }
 
-    .banner-title{
-        font-size: 2rem;
-    }
+     .banner-title {
+         font-size: 2rem;
+     }
 
-    .banner-content p {
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
+     .banner-content p {
+         font-size: 1rem;
+         margin-bottom: 10px;
+     }
 
-    .primary-btn {
-        border-radius: 30px;
-        padding: 10px 20px;
-        font-size: 1.25rem;
-    }
+     .primary-btn {
+         border-radius: 30px;
+         padding: 10px 20px;
+         font-size: 1.25rem;
+     }
 
-    .banner-btn {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+     .banner-btn {
+         margin-top: 30px;
+         margin-bottom: 30px;
+     }
 
-    .banner-img-container {
-        width: 80%;
-        margin: 0 auto;
-    }
+     .banner-img-container {
+         width: 80%;
+         margin: 0 auto;
+     }
 
-    .banner-img-container img {
-        width: 100%;
-    }
+     .banner-img-container img {
+         width: 100%;
+     }
 
-    /* Online games styles */
+     /* Online games styles */
 
-    .online-games-container{
-        width: 90%;
-        margin: 30px auto;
-    }
+     .online-games-container {
+         width: 90%;
+         margin: 30px auto;
+     }
 
-    .cards{
-        width: 80%;
-        margin: 0 auto;
-    }
+     .cards {
+         width: 80%;
+         margin: 0 auto;
+     }
 
-    .cards img{
-        width: 100%;
-    }
+     .cards img {
+         width: 100%;
+     }
 
-    .online-games-title{
-        font-size: 1.5rem;
-    }
+     .online-games-title {
+         font-size: 1.5rem;
+     }
 
-    .text-description{
-        font-size: .7rem;
-    }
+     .text-description {
+         font-size: .7rem;
+     }
+
+     /* overlay styles */
+
+     .overlay {
+         width: 98%;
+         height: 89%;
+     }
+
 
  }
-
-
 
 
 
@@ -124,82 +130,92 @@
  /* Responsive for Tablet */
  @media screen and (min-width:450px) and (max-width:770px) {
 
-    /* nav styles */
-    
-    .nav-container{
-        width: 100%;
-    }
-    
-    .logo-container {
-        width: 40%;
-    }
-    .menus-item-container {
-        width: 70%;
-        margin: 0px;
-        justify-content: space-between;
-    }
+     /* nav styles */
 
-    .menus-item a{
-        margin-left: 0px;
-    }
-    .menus-item li{
-        margin-left: 20px;
-        width: 50%;
-    }
+     .nav-container {
+         width: 100%;
+     }
 
-    .menus-icons {
-        gap: 15px;
-        margin-left: 10px;
-        padding: 20px 15px;
-    }
+     .logo-container {
+         width: 40%;
+     }
+
+     .menus-item-container {
+         width: 70%;
+         margin: 0px;
+         justify-content: space-between;
+     }
+
+     .menus-item a {
+         margin-left: 0px;
+     }
+
+     .menus-item li {
+         margin-left: 20px;
+         width: 50%;
+     }
+
+     .menus-icons {
+         gap: 15px;
+         margin-left: 10px;
+         padding: 20px 15px;
+     }
 
      .banner-content-bg-img {
-        width: 95%;
-        margin: 0 auto;
-        background-size: 100%;
-    }
+         width: 95%;
+         margin: 0 auto;
+         background-size: 100%;
+     }
 
-    .banner-content {
-        width: 85%;
-        margin: 20px auto;
-    }
+     .banner-content {
+         width: 85%;
+         margin: 20px auto;
+     }
 
-    .banner-title{
-        font-size: 2.5rem;
-    }
+     .banner-title {
+         font-size: 2.5rem;
+     }
 
-    .banner-content p {
-        margin-bottom: 10px;
-        font-size: 1.2rem;
-    }
+     .banner-content p {
+         margin-bottom: 10px;
+         font-size: 1.2rem;
+     }
 
-    .banner-img-container {
-        width: 80%;
-        margin: 8px auto 0;
-    }
+     .banner-img-container {
+         width: 80%;
+         margin: 8px auto 0;
+     }
 
-    .banner-img-container img {
-        width: 100%;
-    }
+     .banner-img-container img {
+         width: 100%;
+     }
 
-    /* Online games styles */
+     /* Online games styles */
 
-    .cards{
-        flex-wrap: wrap;
-    }
+     .cards {
+         flex-wrap: wrap;
+     }
 
-    .card img{
-        width: 100%;
-        height: auto;
-    }
+     .cards img {
+         width: 100%;
+     }
 
-    .card{
-        flex: 1;
-        width: 100%;
-        margin: 0 10px;
-        padding: 5px;
-        box-sizing: border-box;
-        flex: 0 0 calc(50% - 30px);
+     .card {
+         flex: 1;
+         width: 100%;
+         margin: 0 10px;
+         padding: 5px;
+         box-sizing: border-box;
+         flex: 0 0 calc(50% - 30px);
+     }
+
+      /* overlay styles */
+
+      .overlay {
+        top: 9px;
+        left: 9px;
+        width: 94.8%;
+        height: 82.2%;
     }
 
  }

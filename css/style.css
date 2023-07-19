@@ -224,6 +224,55 @@ nav {
     gap: 20px;
 }
 
+.card{
+    flex: 1;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
 .cards img {
     width: 274px;
+}
+
+/* Overlay styles */
+
+.overlay-card {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    position: absolute;
+    width: 98%;
+    height: 81%;
+    border-radius: 16px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay-icon{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.overlay-text {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: var(--btn-font-size);
+    font-weight: var(--primary-font-weight);
+}
+
+.overlay:hover {
+    opacity: 1;
 }
