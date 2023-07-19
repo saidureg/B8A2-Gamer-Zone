@@ -50,6 +50,19 @@
     margin-right: 7px;
 }
 
+.games-title {
+    color: var(--primary-color);
+    font-weight: var(--secondary-font-weight);
+    font-size: var(--primary-font-size);
+}
+
+.text-hive {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* header related styles here */
 
 nav {
@@ -177,10 +190,6 @@ nav {
 .banner-caption {
     font-size: 5.9rem;
     font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     margin-bottom: 24px;
 }
@@ -206,18 +215,7 @@ nav {
     margin-bottom: 50px;
 }
 
-.online-games-title {
-    color: var(--primary-color);
-    font-weight: var(--secondary-font-weight);
-    font-size: var(--primary-font-size);
-}
 
-.funny-video {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .cards {
     display: flex;
