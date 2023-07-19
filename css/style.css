@@ -35,6 +35,15 @@
     background-color: #4EC5F7;
 }
 
+.fa-regular{
+    margin-right: 10px;
+    color:#FF42A5;
+}
+
+.fa-solid{
+    margin-right: 7px;
+}
+
 /* header related styles here */
 
 nav {
@@ -117,7 +126,6 @@ nav {
 
 .banner-container {
     display: flex;
-    padding: 10px 10px;
 }
 
 .banner-content-bg-img {
@@ -143,6 +151,7 @@ nav {
     color: #534C64;
     font-size: 1.25rem;
     font-weight: var(--text-weight-last);
+    margin-bottom: 8px;
 }
 
 .banner-content .click {
@@ -172,6 +181,7 @@ nav {
 
 .banner-img-container {
     width: 50%;
+    padding: 10px 10px;
 }
 
 .banner-img-container img {
