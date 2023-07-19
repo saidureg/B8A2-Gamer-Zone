@@ -35,12 +35,18 @@
     background-color: #4EC5F7;
 }
 
-.fa-regular{
-    margin-right: 10px;
-    color:#FF42A5;
+.text-description {
+    font-size: var(--btn-font-size);
+    color: #534C64;
+    margin-top: 20px;
 }
 
-.fa-solid{
+.fa-regular {
+    margin-right: 10px;
+    color: #FF42A5;
+}
+
+.fa-solid {
     margin-right: 7px;
 }
 
@@ -186,4 +192,38 @@ nav {
 
 .banner-img-container img {
     width: 500px;
+}
+
+/* Online games styles */
+
+.online-games-container {
+    max-width: 1160px;
+    margin: 90px auto;
+}
+
+.online-games-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.online-games-title {
+    color: var(--primary-color);
+    font-weight: var(--secondary-font-weight);
+    font-size: var(--primary-font-size);
+}
+
+.funny-video {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.cards img {
+    width: 274px;
 }
