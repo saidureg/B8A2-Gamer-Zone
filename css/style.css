@@ -223,7 +223,7 @@ nav {
     gap: 20px;
 }
 
-.card{
+.card {
     flex: 1;
     max-width: 100%;
     position: relative;
@@ -257,7 +257,7 @@ nav {
     transition: opacity 0.3s ease;
 }
 
-.overlay-icon{
+.overlay-icon {
     font-size: 3rem;
     color: white;
     margin-bottom: 10px;
@@ -281,7 +281,7 @@ nav {
 /* play games styles */
 
 
-.play-games-container{
+.play-games-container {
     max-width: 1160px;
     margin: 0px auto;
     display: flex;
@@ -289,28 +289,93 @@ nav {
     justify-content: space-between;
 }
 
-.play-games-img-container{
+.play-games-img-container {
     width: 50%;
     position: relative;
 }
 
-.play-games-img-container > img{
+.play-games-img-container>img {
     width: 90%;
     margin: 0 auto;
 }
 
-.play-games-img{
+.play-games-img {
     position: absolute;
     bottom: -92px;
     right: -43.5px;
     text-align: right;
 }
 
-.play-games-img img{
+.play-games-img img {
     width: 74%;
 }
 
-.play-games-content{
+.play-games-content {
     width: 40%;
     padding: 15px;
+}
+
+
+/* cartoon card styles */
+
+.cartoon-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 100vw;
+}
+
+.cartoon-container {
+    max-width: 1170px;
+    min-height: 300px;
+    margin: 150px auto;
+    padding: 50px 0;
+}
+
+.cartoon-card-container {
+    display: grid;
+    align-items: center;
+}
+
+.first-row {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.second-row {
+    grid-template-columns: repeat(4, 1fr);
+    width: 85%;
+    margin: 0 auto;
+}
+
+.cartoon-card-img {
+    border: 0;
+    border-radius: 50px;
+    background-color: #fff;
+    min-width: 195px;
+    min-height: 50px;
+    margin: 15px auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cartoon-card-img:hover {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+}
+
+.cartoon-card-img:hover {
+    border: .5px solid #FF42A5;
+}
+
+.cartoon-card-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cartoon-card-img p {
+    font-size: 1rem;
 }
