@@ -33,6 +33,7 @@
     font-size: 1.25rem;
     font-weight: var(--primary-font-weight);
     background-color: #4EC5F7;
+    cursor: pointer;
 }
 
 .text-description {

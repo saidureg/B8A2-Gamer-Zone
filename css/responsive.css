@@ -9,6 +9,12 @@
          flex-direction: column;
      }
 
+
+     .banner-container,
+     .play-games-container {
+         flex-direction: column-reverse;
+     }
+
      /* nav styles */
      .nav-container {
          width: 95%;
@@ -40,14 +46,11 @@
 
      /* banner styles */
 
-     .banner-container {
-         flex-direction: column-reverse;
-     }
 
      .banner-content-bg-img {
          width: 95%;
          margin: 20px auto;
-         background-size: 100%;
+         background-size: 100% 336px;
      }
 
      .banner-content {
@@ -119,6 +122,37 @@
          height: 89%;
      }
 
+     /* play games styles */
+
+
+     .play-games-container {
+         width: 95%;
+     }
+
+     .play-games-img-container {
+         width: 70%;
+     }
+
+     .play-games-img-container>img {
+         width: 100%;
+     }
+
+     .play-games-img {
+         bottom: -59px;
+         right: -59px;
+     }
+
+     .play-games-img img {
+         width: 42%;
+     }
+
+     .play-games-content {
+         width: 80%;
+         padding: 10px;
+         margin-bottom: 40px;
+         margin-top: 40px;
+         text-align: center;
+     }
 
  }
 
@@ -163,7 +197,7 @@
      .banner-content-bg-img {
          width: 95%;
          margin: 0 auto;
-         background-size: 100%;
+         background-size: 100% 385px;
      }
 
      .banner-content {
@@ -208,13 +242,43 @@
          flex: 0 0 calc(50% - 30px);
      }
 
-      /* overlay styles */
+     /* overlay styles */
 
-      .overlay {
-        top: 9px;
-        left: 9px;
-        width: 94.8%;
-        height: 82.2%;
+     .overlay {
+         top: 9px;
+         left: 9px;
+         width: 94.8%;
+         height: 82.2%;
+     }
+
+
+     /* play games styles */
+
+
+     .play-games-container {
+        width: 100%;
     }
 
+    .play-games-img-container {
+        width: 50%;
+    }
+
+    .play-games-img-container>img {
+        width: 85%;
+        margin-left: 20px;
+    }
+
+    .play-games-img {
+        bottom: -100px;
+        right: -61.5px;
+    }
+
+    .play-games-img img {
+        width: 58%;
+    }
+
+    .play-games-content {
+        width: 40%;
+        padding: 10px;
+    }
  }
