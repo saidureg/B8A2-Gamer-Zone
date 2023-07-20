@@ -320,29 +320,18 @@ nav {
 
 .cartoon-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    width: 100vw;
-}
-
-.cartoon-container {
-    max-width: 1170px;
-    min-height: 300px;
-    margin: 150px auto;
-    padding: 50px 0;
+    width: 100%;
 }
 
 .cartoon-card-container {
-    display: grid;
-    align-items: center;
-}
+    max-width: 1160px;
+    min-height: 300px;
+    margin: 150px auto;
+    padding: 50px 0;
 
-.first-row {
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.second-row {
-    grid-template-columns: repeat(4, 1fr);
-    width: 85%;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cartoon-card-img {
@@ -359,7 +348,7 @@ nav {
 }
 
 .cartoon-card-img:hover {
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -367,7 +356,7 @@ nav {
 }
 
 .cartoon-card-img:hover {
-    border: .5px solid #FF42A5;
+    border: .5px solid #FF42A5
 }
 
 .cartoon-card-img img {

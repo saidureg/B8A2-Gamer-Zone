@@ -154,6 +154,39 @@
          text-align: center;
      }
 
+     /* cartoon styles */
+
+     .cartoon-section {
+         margin: 100px auto 50px;
+     }
+
+     .cartoon-card-container {
+         max-width: 96%;
+         margin: 10px auto;
+         padding: 32px 0;
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         justify-content: center;
+     }
+
+     .cartoon-card-img {
+         min-width: 10px;
+         min-height: 10px;
+         padding: 5px;
+         gap: 10px;
+     }
+
+     .cartoon-card-img img {
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+     }
+
+     .cartoon-card-img p {
+         font-size: .6rem;
+     }
+
+
  }
 
 
@@ -256,29 +289,29 @@
 
 
      .play-games-container {
-        width: 100%;
-    }
+         width: 100%;
+     }
 
-    .play-games-img-container {
-        width: 50%;
-    }
+     .play-games-img-container {
+         width: 50%;
+     }
 
-    .play-games-img-container>img {
-        width: 85%;
-        margin-left: 20px;
-    }
+     .play-games-img-container>img {
+         width: 85%;
+         margin-left: 20px;
+     }
 
-    .play-games-img {
-        bottom: -100px;
-        right: -61.5px;
-    }
+     .play-games-img {
+         bottom: -100px;
+         right: -61.5px;
+     }
 
-    .play-games-img img {
-        width: 58%;
-    }
+     .play-games-img img {
+         width: 58%;
+     }
 
-    .play-games-content {
-        width: 40%;
-        padding: 10px;
-    }
+     .play-games-content {
+         width: 40%;
+         padding: 10px;
+     }
  }
