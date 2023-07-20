@@ -326,7 +326,7 @@ nav {
 .cartoon-card-container {
     max-width: 1160px;
     min-height: 300px;
-    margin: 150px auto;
+    margin: 150px auto 70px;
     padding: 50px 0;
 
     display: flex;
@@ -367,4 +367,89 @@ nav {
 
 .cartoon-card-img p {
     font-size: 1rem;
+}
+
+
+/* footer styles */
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+}
+
+.footer-container {
+    /* background-color: var(--primary-color); */
+    color: white;
+    padding: 100px;
+}
+
+
+.footer-container>div {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 50%;
+    display: flex;
+}
+
+.footer-logo img {
+    width: 70px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.footer-logo p {
+    font-size: 2.8rem;
+    font-weight: var(--secondary-font-weight);
+}
+
+.footer-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    color: white;
+}
+
+.footer-item a {
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: var(--text-weight-last);
+    margin-left: 10px;
+    color: white;
+}
+
+#icon-button {
+    padding: 10px;
+    text-decoration: none;
+}
+
+#icon-button .fa-brands {
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.settings {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: var(--text-weight-last);
+}
+
+.settings-item {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: var(--text-weight-last);
+    display: inline-flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.settings-item a {
+    text-decoration: none;
 }
