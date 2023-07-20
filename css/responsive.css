@@ -18,11 +18,11 @@
      /* nav styles */
      .nav-container {
          width: 95%;
-         margin-top: 25px;
      }
 
      .logo-container {
          width: 100%;
+         margin-top: 30px;
          margin-bottom: 30px;
      }
 
@@ -353,4 +353,12 @@
          width: 40%;
          padding: 10px;
      }
+
+     /* footer styles */
+
+     .settings-item {
+         gap: 15px;
+
+     }
+
  }
